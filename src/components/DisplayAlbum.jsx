@@ -30,9 +30,9 @@ const DisplayAlbum = () => {
             </div>
             <div className="grid grid-col-3 sm:grid-cols-4 mt-10 mb-4 pl-2 text-[#a7a7a7] max-sm:flex max-sm:justify-between">
                 <p><b className='mr-4'>#</b>Title</p>
-                <p>Album</p>
-                <p className='hidden sm:block'>Date Added</p>
-                <img className='m-auto w-4 max-sm:mr-[16px]' src={assets.clock_icon} alt="" />
+                <p className='ml-[70px] max-sm:hidden'>Album</p>
+                <p className='ml-[60px] hidden sm:block'>Date Added</p>
+                <img className='m-auto mr-[84px] w-4 max-sm:mr-[16px]' src={assets.clock_icon} alt="" />
             </div>
             <hr />
             {
